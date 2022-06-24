@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import {questions} from './questions'
 
 export default function App() {
-	// Define a state variable here to track question status
 	const [currentIndex, setCurrentIndex] = useState(0)
     const[score,setScore] = useState(0)
 
