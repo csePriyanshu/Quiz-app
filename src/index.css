@@ -105,3 +105,33 @@ button:focus {
 button svg {
 	margin-right: 5px;
 }
+
+.containerHeader{
+	position: absolute;
+	background-color: #252d4a;
+	height: 25px;
+	padding: 15px;
+	top: 0;
+	left:0;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	letter-spacing: 5px;
+	color: #234668;
+}
+.containerHeader .logo{
+	color: #7cc6fe;
+}
+.containerFooter{
+	position: absolute;
+	background-color: #252d4a;
+	height: 15px;
+	padding: 10px;
+	bottom: 0;
+	left:0;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	/* letter-spacing: 5px; */
+	/* color: #234668; */
+}
