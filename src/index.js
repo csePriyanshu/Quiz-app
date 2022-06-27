@@ -15,7 +15,8 @@ root.render(
   </>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
+// Learn more: https://www.snowpack.dev/#hot-module-replacement
+if (import.meta.hot) {
+	import.meta.hot.accept()
+}
